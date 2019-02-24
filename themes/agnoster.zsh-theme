@@ -199,11 +199,7 @@ prompt_hg() {
 
 # Dir: current working directory
 prompt_dir() {
-<<<<<<< HEAD
   prompt_segment blue black ' %25<...<%~%<< '
-=======
-  prompt_segment blue $CURRENT_FG '%~'
->>>>>>> upstream/master
 }
 
 # Virtualenv: current working virtualenv
